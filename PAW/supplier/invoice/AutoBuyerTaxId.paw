@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>2B605866-B582-4855-89BB-C6189026C7B4</UUID>
-        <nextObjectID>217</nextObjectID>
+        <nextObjectID>231</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -68,7 +68,7 @@
     </object>
     <object type="LMREQUEST" id="z104">
         <attribute name="uuid" type="string">B94B4803-3585-4145-B1B8-BF0A7C95B1F6</attribute>
-        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/ticket/5c58a2ae6b894f0d84eeffabbc9ac006</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/ticket/33269e4aaab94a67bd1708d907390189</attribute>
         <attribute name="timeoutinterval" type="float">30</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
         <attribute name="redirectauthorization" type="bool">0</attribute>
@@ -78,7 +78,7 @@
         <attribute name="name" type="string">GET TICKET</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z106 z105 z103 z107 z211"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z219 z103 z106 z105 z107 z211"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z105">
         <attribute name="value" type="string">XXXX</attribute>
@@ -94,7 +94,7 @@
         <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
         <attribute name="order" type="int64">4</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
@@ -124,7 +124,7 @@
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">Create</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z132"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z199 z208 z178"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z208 z199"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
@@ -162,7 +162,7 @@
         <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
         <attribute name="order" type="int64">7</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
@@ -188,7 +188,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z144"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z121">
-        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
         <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -208,7 +208,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z139"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z124">
-        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
         <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -228,9 +228,9 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z144"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z129">
-        <attribute name="value" type="string"></attribute>
+        <attribute name="value" type="string">gLJB8MQtEp2Q4AYitWR71A0GlswZ0dki5dmf</attribute>
         <attribute name="order" type="int64">8</attribute>
-        <attribute name="name" type="string"></attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
@@ -258,18 +258,17 @@
     </object>
     <object type="LMREQUEST" id="z135">
         <attribute name="uuid" type="string">CF18FFBC-EBF4-490C-BE04-8CFE49AD498C</attribute>
-        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/7c61b6e09d6844da81f21b5251d52ece</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
         <attribute name="timeoutinterval" type="float">30</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">GET</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["[{\\n    \\"number\\": \\"JGH-SI-2471\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"unitPrice\\": 19.99,\\n            \\"quantity\\": 100,\\n            \\"poItemNumber\\": 1\\n        }\\n    ]\\n}\\n]"]</attribute>
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">My API</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z118"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z117 z137 z143 z133 z129 z145"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z137 z129 z143 z117 z218 z145 z133"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z136">
         <attribute name="value" type="string"></attribute>
@@ -299,12 +298,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404657097000\\",\\n    \\"vendorNumber\\": \\"9990053609\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 8172.95,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"JGH-PO7714\\",\\n    \\"freightTerms2\\": \\"FT2ipsum\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-7917\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-vel\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-0577091\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-7914577\\",\\n            \\"materialDescription\\": \\"maecenas inceptos ut mi posuere\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 4,\\n                    \\"deliveryDate\\": \\"1405002697000\\",\\n                    \\"quantity\\": 43\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 190.07,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"597 Eget Diam\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"68574\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO7714\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"fringilla\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 43\\n        }\\n    ]\\n}\\n]"]</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694168000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 3644.15,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"3000\\",\\n    \\"number\\": \\"JGH-PO959\\",\\n    \\"freightTerms2\\": \\"FT2fringilla\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-8764\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-tristique\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-0681115\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-2602794\\",\\n            \\"materialDescription\\": \\"neque class montes placerat vivamus\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 3,\\n                    \\"deliveryDate\\": \\"1405039768000\\",\\n                    \\"quantity\\": 83\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 43.91,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"889 Nisl Torquent\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"62607\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO959\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"morbi\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 83\\n        }\\n    ]\\n}]"]</attribute>
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">9990053609 - no IDs</attribute>
+        <attribute name="name" type="string">VENDOR3000 - no PO tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z192"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z113 z110 z136 z121 z122"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z136 z121 z113 z122 z110"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z141">
         <attribute name="value" type="string">application/JSON</attribute>
@@ -334,12 +333,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["[\\n{\\n    \\"documentDate\\": \\"1404657098000\\",\\n    \\"vendorNumber\\": \\"0000400129\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 9076.93,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"1000\\",\\n    \\"number\\": \\"JGH-PO9822\\",\\n    \\"freightTerms2\\": \\"FT2cubilia\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-5236\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-nisi\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-4204800\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-5157969\\",\\n            \\"materialDescription\\": \\"nibh integer sociosqu habitant\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 4,\\n                    \\"deliveryDate\\": \\"1405002698000\\",\\n                    \\"quantity\\": 91\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 99.75,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"754 Sodales Viverra\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"42898\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO9822\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"curae;\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 91\\n        }\\n    ]\\n}\\n]"]</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694688000\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 1110.32,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"JGH-PO5702\\",\\n    \\"freightTerms2\\": \\"FT2nec\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-0901\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-primis\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-2951418\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-3003166\\",\\n            \\"materialDescription\\": \\"mus sodales integer\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 1,\\n                    \\"deliveryDate\\": \\"1405040288000\\",\\n                    \\"quantity\\": 16\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 69.4,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"874 Leo Placerat\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"53116\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO5702\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"luctus\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 16\\n        }\\n    ]\\n}]"]</attribute>
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">JK06020935 - No Tax ID</attribute>
+        <attribute name="name" type="string">9990018666 - no PO tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z189"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z141 z119 z128 z114 z124"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z128 z141 z119 z114 z124"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z145">
         <attribute name="value" type="string">XXXX</attribute>
@@ -352,7 +351,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z135"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z146">
-        <attribute name="value" type="string">gLJB8MQtEp2Q4AYitWR71A0GlswZ0dki5dmf</attribute>
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
         <attribute name="order" type="int64">5</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -369,15 +368,15 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990053609\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n\\t\\"purchaseOrderNumber\\":\\"JGH-PO7714\\",\\n    \\"number\\": \\"JGH-INV-3776\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test no supplier master tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 6,\\n            \\"unitPrice\\": 462.08,\\n            \\"discount\\": 1.37,\\n            \\"netAmount\\": 2772.48\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"3000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"JGH-PO959\\",\\n    \\"number\\": \\"JGH-INV-98765\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO no tax ID \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 16,\\n            \\"unitPrice\\": 48.30,\\n            \\"discount\\": 1.22,\\n            \\"netAmount\\":1110.32\\n        }\\n    ]\\n}"]</attribute>
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">9990053609 - default ID</attribute>
+        <attribute name="name" type="string">VENDOR3000 - no PO tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z199"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z159 z152 z160 z164 z168"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z152 z168 z164 z160 z159"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z152">
-        <attribute name="value" type="string">2013-10-10T17:34:41Z</attribute>
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
         <attribute name="order" type="int64">7</attribute>
         <attribute name="name" type="string">Date</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -394,12 +393,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990053609\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n\\t\\"purchaseOrderNumber\\":\\"JGH-PO3080\\",\\n    \\"number\\": \\"JGH-INV-3449\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test no supplier master tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 9,\\n            \\"unitPrice\\": 101.94,\\n            \\"discount\\": 1.3,\\n            \\"netAmount\\": 917.45\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"3000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n\\t\\"purchaseOrderNumber\\":\\"JGH-PO0905\\",\\n    \\"number\\": \\"JGH-INV-3539\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test PO has tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 8,\\n            \\"unitPrice\\":107.99,\\n            \\"discount\\": 2.27,\\n            \\"netAmount\\": 2257.38\\n        }\\n    ]\\n}"]</attribute>
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">9990053609 - PO has Tax ID</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO has Tax ID OTHER</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z199"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z173 z146 z156 z163 z172"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z172 z156 z173 z146 z163"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z156">
         <attribute name="value" type="string">application/JSON</attribute>
@@ -412,7 +411,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z153"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z159">
-        <attribute name="value" type="string">gLJB8MQtEp2Q4AYitWR71A0GlswZ0dki5dmf</attribute>
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
         <attribute name="order" type="int64">5</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -432,7 +431,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z149"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z163">
-        <attribute name="value" type="string">2013-10-10T17:34:41Z</attribute>
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
         <attribute name="order" type="int64">7</attribute>
         <attribute name="name" type="string">Date</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -481,15 +480,6 @@
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z153"></relationship>
     </object>
-    <object type="LMREQUESTGROUP" id="z178">
-        <attribute name="order" type="int64">2</attribute>
-        <attribute name="name" type="string">BuyertaxID in request</attribute>
-        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z111"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z217"></relationship>
-        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
-        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
-    </object>
     <object type="LMKEYVALUE" id="z183">
         <attribute name="value" type="string"></attribute>
         <attribute name="order" type="int64">4</attribute>
@@ -518,12 +508,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404657098000\\",\\n    \\"vendorNumber\\": \\"9990053609\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 1276.2,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"JGH-PO3080\\",\\n    \\"freightTerms2\\": \\"FT2ornare\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-9437\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"77-655552\\",\\n        \\"type\\": \\"FEIN\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-tempus\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-7027851\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-8140865\\",\\n            \\"materialDescription\\": \\"nunc lobortis conubia mi magnis\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 5,\\n                    \\"deliveryDate\\": \\"1405002698000\\",\\n                    \\"quantity\\": 16\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 79.76,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"753 Mauris Ante\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"94962\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO3080\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"class\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 16\\n        }\\n    ]\\n}\\n]"]</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694168000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 4811.04,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"3000\\",\\n    \\"number\\": \\"JGH-PO0905\\",\\n    \\"freightTerms2\\": \\"FT2mus\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-1358\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"693-588-3237\\",\\n        \\"type\\": \\"OTHER\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-nascetur\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-6273016\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-0330993\\",\\n            \\"materialDescription\\": \\"lorem curae; primis cubilia orci\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 2,\\n                    \\"deliveryDate\\": \\"1405039768000\\",\\n                    \\"quantity\\": 49\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 98.18,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"283 Sociosqu Semper\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"10200\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO0905\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"cum\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 49\\n        }\\n    ]\\n}]"]</attribute>
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">9990053609 - PO Has Tax ID</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO Has Tax ID (OTHER)</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z192"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z186 z183 z187 z184 z188"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z186 z184 z187 z188 z183"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z186">
         <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
@@ -536,7 +526,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z185"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z187">
-        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
         <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -557,7 +547,7 @@
     </object>
     <object type="LMREQUESTGROUP" id="z189">
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">Buyer Has TAX ID</attribute>
+        <attribute name="name" type="string">JGHBUYER1 - tax ID:789654123</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z115"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z144 z190"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
@@ -572,12 +562,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404657098000\\",\\n    \\"vendorNumber\\": \\"0000400129\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 3455.97,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"1000\\",\\n    \\"number\\": \\"JGH-PO9066\\",\\n    \\"freightTerms2\\": \\"FT2vehicula\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-6968\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"783-301-6693\\",\\n        \\"type\\": \\"PST\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-lorem\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-8136119\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-6022082\\",\\n            \\"materialDescription\\": \\"ornare dictumst sit orci fames\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 4,\\n                    \\"deliveryDate\\": \\"1405002698000\\",\\n                    \\"quantity\\": 85\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 40.66,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"590 Quisque Sollicitudin\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"53405\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO9066\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"proin\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 85\\n        }\\n    ]\\n}\\n]"]</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694689000\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 6970.03,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"JGH-PO7732\\",\\n    \\"freightTerms2\\": \\"FT2cum\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-6112\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"386-167-3001\\",\\n        \\"type\\": \\"GST\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-quisque\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-5128948\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-7889203\\",\\n            \\"materialDescription\\": \\"vehicula potenti sodales euismod\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 4,\\n                    \\"deliveryDate\\": \\"1405040289000\\",\\n                    \\"quantity\\": 61\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 114.26,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"692 Cras Primis\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"55808\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO7732\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"mattis\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 61\\n        }\\n    ]\\n}]"]</attribute>
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">JK06020935 - PO has Tax ID</attribute>
+        <attribute name="name" type="string">9990018666 - PO has Tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z189"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z193 z194 z195 z191 z196"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z195 z194 z193 z191 z196"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z191">
         <attribute name="value" type="string"></attribute>
@@ -591,9 +581,9 @@
     </object>
     <object type="LMREQUESTGROUP" id="z192">
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">Buyer Has NO Tax Id</attribute>
+        <attribute name="name" type="string">SAP O47 300 LLC - No TAX ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z115"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z185 z139"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z139 z222 z185"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
@@ -619,7 +609,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z190"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z195">
-        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
         <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -660,15 +650,15 @@
     </object>
     <object type="LMREQUESTGROUP" id="z199">
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">Supplier with no Buyer Tax ID</attribute>
+        <attribute name="name" type="string">SAP O47 300 LLC - No TAX ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z111"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z149 z153"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z153 z227 z149"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z200">
-        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="value" type="string">fkdPgqgBHbMcIZnrb0jsGr9uf0nqHptSZZo2</attribute>
         <attribute name="order" type="int64">5</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -705,12 +695,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"1000\\",\\n    \\"vendorNumber\\": \\"0000400129\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\": \\"JGH-PO9066\\",\\n    \\"number\\": \\"JGH-INV-8947\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test no supplier master tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 5,\\n            \\"unitPrice\\": 44.72,\\n            \\"discount\\": 0.16,\\n            \\"netAmount\\": 3432.51\\n        }\\n    ]\\n}\\n"]</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"JGH-PO7732\\",\\n    \\"number\\": \\"JGH-INV-79999\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 61,\\n            \\"unitPrice\\": 114.26,\\n            \\"discount\\": 0.37,\\n            \\"netAmount\\":6970.03\\n        }\\n    ]\\n}"]</attribute>
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">0000400129 - PO has Tax ID</attribute>
+        <attribute name="name" type="string">9990018666 - PO has Tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z208"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z210 z207 z205 z201 z200"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z205 z210 z207 z201 z200"></relationship>
     </object>
     <object type="LMREQUEST" id="z204">
         <attribute name="uuid" type="string">C7C76897-24FD-4DBB-AD52-255C9D820EEA</attribute>
@@ -720,12 +710,12 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"1000\\",\\n    \\"vendorNumber\\": \\"0000400129\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"JGH-PO9822\\",\\n    \\"number\\": \\"JGH-INV-1055\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test no supplier master tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 9,\\n            \\"unitPrice\\": 109.70,\\n            \\"discount\\": 1.72,\\n            \\"netAmount\\": 99.75\\n        }\\n    ]\\n}\\n"]</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"JGH-PO5702\\",\\n    \\"number\\": \\"JGH-INV-335787\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO no tax ID \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 16,\\n            \\"unitPrice\\": 69.4,\\n            \\"discount\\": 1.22,\\n            \\"netAmount\\":1110.32\\n        }\\n    ]\\n}"]</attribute>
         <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">0000400129 - PO with NO tax ID</attribute>
+        <attribute name="name" type="string">9990018666 - PO with NO tax ID</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z208"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z206 z209 z197 z198 z202"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z202 z206 z209 z197 z198"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z205">
         <attribute name="value" type="string"></attribute>
@@ -759,15 +749,15 @@
     </object>
     <object type="LMREQUESTGROUP" id="z208">
         <attribute name="order" type="int64">1</attribute>
-        <attribute name="name" type="string">Supplier with Buyer having tax ID</attribute>
+        <attribute name="name" type="string">JGHBUYER1 - tax ID:789654123</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z111"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z203 z204"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z204 z203"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z209">
-        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="value" type="string">fkdPgqgBHbMcIZnrb0jsGr9uf0nqHptSZZo2</attribute>
         <attribute name="order" type="int64">5</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
@@ -787,36 +777,16 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z203"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z211">
-        <attribute name="value" type="string"></attribute>
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
         <attribute name="order" type="int64">5</attribute>
-        <attribute name="name" type="string"></attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z104"></relationship>
     </object>
-    <object type="LMKEYVALUE" id="z212">
-        <attribute name="value" type="string">XXXX</attribute>
-        <attribute name="order" type="int64">6</attribute>
-        <attribute name="name" type="string">x-tau-rest-signature</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z217"></relationship>
-    </object>
-    <object type="LMKEYVALUE" id="z213">
-        <attribute name="value" type="string">application/JSON</attribute>
-        <attribute name="order" type="int64">8</attribute>
-        <attribute name="name" type="string">Content-Type</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z217"></relationship>
-    </object>
-    <object type="LMKEYVALUE" id="z214">
+    <object type="LMKEYVALUE" id="z218">
         <attribute name="value" type="string"></attribute>
         <attribute name="order" type="int64">9</attribute>
         <attribute name="name" type="string"></attribute>
@@ -824,41 +794,146 @@
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z217"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z135"></relationship>
     </object>
-    <object type="LMKEYVALUE" id="z215">
-        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
-        <attribute name="order" type="int64">5</attribute>
+    <object type="LMKEYVALUE" id="z219">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z104"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z220">
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
+        <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string">x-tau-rest-apikey</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z217"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z222"></relationship>
     </object>
-    <object type="LMKEYVALUE" id="z216">
-        <attribute name="value" type="string">2013-10-10T17:34:41Z</attribute>
+    <object type="LMKEYVALUE" id="z221">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z222"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z222">
+        <attribute name="uuid" type="string">D08BC9BD-196B-4B2A-8EF5-E76B0C4275CC</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/purchaseOrder</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404919115000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 5967.39,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"3000\\",\\n    \\"number\\": \\"JGH-PO3210\\",\\n    \\"freightTerms2\\": \\"FT2orci\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-SAP-0316\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"459-208-6356\\",\\n        \\"type\\": \\"VAT\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-consectetur\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-9561727\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-3129926\\",\\n            \\"materialDescription\\": \\"viverra nam mollis\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 1,\\n                    \\"deliveryDate\\": \\"1405264715000\\",\\n                    \\"quantity\\": 43\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 138.78,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"137 Elementum Duis\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"64900\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"JGH-PO3210\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"lectus\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 43\\n        }\\n    ]\\n}\\n]"]</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO Has Tax ID</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z192"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z220 z221 z225 z224 z223"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z223">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z222"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z224">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z222"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z225">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z222"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z226">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
         <attribute name="order" type="int64">7</attribute>
         <attribute name="name" type="string">Date</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z217"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z227"></relationship>
     </object>
-    <object type="LMREQUEST" id="z217">
-        <attribute name="uuid" type="string">6D90976B-473C-4F57-A3BB-5C29DBA5FD24</attribute>
+    <object type="LMREQUEST" id="z227">
+        <attribute name="uuid" type="string">B7089F67-D5FD-48F1-BAD5-CA480DFAFF50</attribute>
         <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
         <attribute name="timeoutinterval" type="float">30</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">PUT</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"1000\\",\\n    \\"vendorNumber\\": \\"0000400129\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\": \\"JGH-PO9066\\",\\n    \\"number\\": \\"JGH-INV-8999\\",\\n    \\"currency\\": \\"USD\\",\\n  \\"buyerTaxIdentifier\\": {\\n    \\"type\\": \\"HST\\",\\n    \\"value\\": \\"3-301-6693\\"\\n  },\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test no supplier master tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 5,\\n            \\"unitPrice\\": 44.72,\\n            \\"discount\\": 0.16,\\n            \\"netAmount\\": 3432.51\\n        }\\n    ]\\n}\\n"]</attribute>
-        <attribute name="order" type="int64">0</attribute>
-        <attribute name="name" type="string">0000400129 - PO has Tax ID</attribute>
-        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z178"></relationship>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"3000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n\\t\\"purchaseOrderNumber\\":\\"JGH-PO3210\\",\\n    \\"number\\": \\"JGH-INV-5498\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test PO has tax ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 9,\\n            \\"unitPrice\\":152.65,\\n            \\"discount\\": 2.12,\\n            \\"netAmount\\": 5967.39\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO has Tax ID</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z199"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z214 z213 z215 z216 z212"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z226 z231 z230 z229 z228"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z228">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z227"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z229">
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z227"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z230">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z227"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z231">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z227"></relationship>
     </object>
 </database>
