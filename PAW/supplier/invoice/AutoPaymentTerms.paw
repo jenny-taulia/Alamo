@@ -1,0 +1,801 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>0F98A170-A8E4-440E-A121-BCE874BEB4BE</UUID>
+        <nextObjectID>262</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>481</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>LMEnvironment</key>
+                        <data>
+		wh7gaVcwAwVVkE9Tw+70wsMIMdQ+Jo4SBtig40m91Yw=
+		</data>
+                        <key>LMEnvironmentVariable</key>
+                        <data>
+		hHCdQevDLYfrdM0/QNEGiWSHhmNvoh+4vxxg/A3QXMw=
+		</data>
+                        <key>LMEnvironmentVariableValue</key>
+                        <data>
+		my5hNPJ51oDCSa8EgdNxWAnRcDLcERUGjtuXnzhSxQ0=
+		</data>
+                        <key>LMKeyValue</key>
+                        <data>
+		bIXXbyYF2xAv2MXg8JTVFsslmMKuvsfnR86QdUcFkdM=
+		</data>
+                        <key>LMRequest</key>
+                        <data>
+		N69H9XINxPl0wW8fuBadsvokjnyj4GqLD2bPiCXvgM8=
+		</data>
+                        <key>LMRequestGroup</key>
+                        <data>
+		ptyuN+dtvB4llhGC64PJYI5PwHlE6qpl6SwAWX91nCk=
+		</data>
+                        <key>LMRequestTreeItem</key>
+                        <data>
+		ak+hYb/lDeG55U0kgGvU5ej7HUltUj0RTrX5z/izNrs=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>LMDocumentVersion2</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="LMENVIRONMENT" id="z102">
+        <attribute name="name" type="string">Default</attribute>
+        <relationship name="variablesvalues" type="0/0" destination="LMENVIRONMENTVARIABLEVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z108">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z117">
+        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z119">
+        <attribute name="uuid" type="string">324A6E4C-0559-40B1-AA05-7C25ECE36F5C</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/ticket/49c7d62ebfc2448b8ee5861c3d30fa1f</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">GET</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">GET TICKET</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z117 z124 z122 z128 z108 z127"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z122">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z124">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z127">
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z128">
+        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z119"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z133">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z162"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z134">
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z163"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z135">
+        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z156"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z136">
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Buyer</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z158 z146"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z138">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z162"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z139">
+        <attribute name="value" type="string">qozQaOCg1WgfcYDWexQ3KwBaEZMw6iVqNVGO</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z142"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z140">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z163"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z141">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z156"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z142">
+        <attribute name="uuid" type="string">174AF4E0-0397-4565-9425-B6102D80D231</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/purchaseOrder</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694689000\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 2,\\n        \\"daysNet\\": 40,\\n        \\"days2\\": 10,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"PO-PT7732\\",\\n    \\"freightTerms2\\": \\"FT2cum\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-PT-6112\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"386-167-3001\\",\\n        \\"type\\": \\"GST\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-quisque\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-5128948\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-7889203\\",\\n            \\"materialDescription\\": \\"vehicula potenti sodales euismod\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 4,\\n                    \\"deliveryDate\\": \\"1405040289000\\",\\n                    \\"quantity\\": 61\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 114.26,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"692 Cras Primis\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"55808\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"PO-PT7732\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"mattis\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 61\\n        }\\n    ]\\n}]"]</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">9990018666 - PO has payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z158"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z147 z148 z139 z151 z153"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z144">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z162"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z145">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z163"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z146">
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">SAP O47 300 LLC - No Payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z136"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z162 z163"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z147">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z142"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z148">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z142"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z150">
+        <attribute name="value" type="string">o47300o34u23904u32eruewiorueiwoureio</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z162"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z151">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z142"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z152">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z163"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z153">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z142"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z155">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z162"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z156">
+        <attribute name="uuid" type="string">94850F60-3ACE-4BD7-A6D9-C265ECACE277</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/purchaseOrder</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694688000\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"businessUnit\\": \\"JGHBUYER1\\",\\n    \\"number\\": \\"PO-PT702\\",\\n    \\"freightTerms2\\": \\"FT2nec\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-PT-0901\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-primis\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-2951418\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-3003166\\",\\n            \\"materialDescription\\": \\"mus sodales integer\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 1,\\n                    \\"deliveryDate\\": \\"1405040288000\\",\\n                    \\"quantity\\": 16\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 69.4,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"874 Leo Placerat\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"53116\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"PO-PT702\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"luctus\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 16\\n        }\\n    ]\\n}]"]</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">9990018666 - no PO payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z158"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z141 z161 z135 z164 z159"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z157">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z163"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z158">
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">JGHBUYER1 - Has Payment Terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z136"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z156 z142"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z159">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z156"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z161">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z156"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z162">
+        <attribute name="uuid" type="string">941D1989-B899-4881-ACE9-BD9066A8D136</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/purchaseOrder</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694168000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"businessUnit\\": \\"3000\\",\\n    \\"number\\": \\"PO-PT959\\",\\n    \\"freightTerms2\\": \\"FT2fringilla\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-PT959\\",\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-tristique\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-0681115\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-2602794\\",\\n            \\"materialDescription\\": \\"neque class montes placerat vivamus\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 3,\\n                    \\"deliveryDate\\": \\"1405039768000\\",\\n                    \\"quantity\\": 83\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 43.91,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"889 Nisl Torquent\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"62607\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"PO-PT959\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"morbi\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 83\\n        }\\n    ]\\n}]"]</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">VENDOR3000 - no PO Payment Terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z146"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z138 z144 z155 z133 z150"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z163">
+        <attribute name="uuid" type="string">95BA539E-6306-4732-A7E0-CF425E3FC24E</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/buyerApi/0.1/purchaseOrder</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["[{\\n    \\"documentDate\\": \\"1404694168000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"grossAmount\\": 4811.04,\\n    \\"paymentTerms\\": {\\n        \\"termsId\\": \\"TAU0\\",\\n        \\"days1\\": 0,\\n        \\"daysNet\\": 30,\\n        \\"days2\\": 0,\\n        \\"percent2\\": 0,\\n        \\"asap\\": false,\\n        \\"percent1\\": 0\\n    },\\n    \\"businessUnit\\": \\"3000\\",\\n    \\"number\\": \\"PO-PT905\\",\\n    \\"freightTerms2\\": \\"FT2mus\\",\\n    \\"taxableIndicator\\": true,\\n    \\"documentId\\": \\"PO-PT905\\",\\n    \\"taxIdentifier\\": {\\n        \\"value\\": \\"693-588-3237\\",\\n        \\"type\\": \\"OTHR\\"\\n    },\\n    \\"documentStatus\\": \\"NEW\\",\\n    \\"freightTerms1\\": \\"FT1-nascetur\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"noInvoiceCreate\\": false,\\n            \\"buyerPartNumber\\": \\"BC-99-6273016\\",\\n            \\"goodsReceiptBaseInvoiceVerification\\": true,\\n            \\"evaluatedReceiptSettlement\\": false,\\n            \\"supplierPartNumber\\": \\"SC-98-0330993\\",\\n            \\"materialDescription\\": \\"lorem curae; primis cubilia orci\\",\\n            \\"schedules\\": [\\n                {\\n                    \\"deliveryDateType\\": 2,\\n                    \\"deliveryDate\\": \\"1405039768000\\",\\n                    \\"quantity\\": 49\\n                }\\n            ],\\n            \\"confirmationPossible\\": false,\\n            \\"unit\\": \\"EA\\",\\n            \\"netPrice\\": 98.18,\\n            \\"shipToAddress\\": {\\n                \\"street\\": \\"283 Sociosqu Semper\\",\\n                \\"region\\": \\"TX\\",\\n                \\"postalCode\\": \\"10200\\",\\n                \\"country\\": \\"US\\",\\n                \\"poNumber\\": \\"PO-PT905\\",\\n                \\"poItemNumber\\": 1,\\n                \\"name\\": \\"cum\\",\\n                \\"city\\": \\"Austin\\"\\n            },\\n            \\"itemNumber\\": 1,\\n            \\"targetQuantity\\": 49\\n        }\\n    ]\\n}]"]</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO Has Payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z146"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z157 z140 z134 z152 z145"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z164">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z156"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z167">
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z170">
+        <attribute name="value" type="string">5H0OpBp9nVYbZzQw19z4RogBQ9RD1ma4nZVY</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z187">
+        <attribute name="value" type="string">gLJB8MQtEp2Q4AYitWR71A0GlswZ0dki5dmf</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z190">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">2</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z191">
+        <attribute name="uuid" type="string">3FE86EF6-4B50-411B-8020-0A3795883619</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/fecde18928f142538de8a3a4d641ef21</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">GET</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">My API</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z223 z190 z167 z206 z170 z262 z187 z225"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z206">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z223">
+        <attribute name="value" type="string">2012-10-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z225">
+        <attribute name="value" type="string">KuNeIST0-eCjm-c9khVjvuIImPgp18VaGQxa</attribute>
+        <attribute name="order" type="int64">7</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">0</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z235">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z240"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z236">
+        <attribute name="value" type="string">fkdPgqgBHbMcIZnrb0jsGr9uf0nqHptSZZo2</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z256"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z237">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z256"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z238">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z256"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z239">
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">JGHBUYER1 - Has Payment Terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z241"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z243 z256"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z240">
+        <attribute name="uuid" type="string">F90E1584-9D2B-47CA-8ADC-8C03879D86DB</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"3000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n\\t\\"purchaseOrderNumber\\":\\"PO-PT905\\",\\n    \\"number\\": \\"INV-3539\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API Test PO has tax ID\\",\\n    \\"credit\\": \\"false\\",\\n\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 8,\\n            \\"unitPrice\\":107.99,\\n            \\"discount\\": 2.27,\\n            \\"netAmount\\": 2257.38\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">VENDOR3000 - PO Has Payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z248"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z255 z235 z251 z249 z244"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z241">
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">Supplier</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z248 z239"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z242">
+        <attribute name="value" type="string">2013-10-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">7</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z243"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z243">
+        <attribute name="uuid" type="string">C7C76897-24FD-4DBB-AD52-255C9D820EEA</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"PO-PT702\\",\\n    \\"number\\": \\"INV-335787\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO no tax ID \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 16,\\n            \\"unitPrice\\": 69.4,\\n            \\"discount\\": 1.22,\\n            \\"netAmount\\":1110.32\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">9990018666 - PO with NO tax ID</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z239"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z258 z242 z253 z246 z261"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z244">
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z240"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z245">
+        <attribute name="uuid" type="string">240C23C3-8DE8-40BD-87AB-952BECCA4872</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"3000\\",\\n    \\"vendorNumber\\": \\"VENDOR3000\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"PO-PT959\\",\\n    \\"number\\": \\"INV-98765\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO no tax ID \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n \\t\\"paymentTerms\\": {\\n    \\"days1\\": 2,\\n    \\"days2\\": 7,\\n    \\"daysNet\\": 40,\\n    \\"percent1\\": 0.000,\\n    \\"percent2\\": 0.000\\n  },\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 16,\\n            \\"unitPrice\\": 48.30,\\n            \\"discount\\": 1.22,\\n            \\"netAmount\\":1110.32\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">VENDOR3000 - no PO Payment Terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z248"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z260 z254 z250 z257 z252"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z246">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z243"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z247">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z256"></relationship>
+    </object>
+    <object type="LMREQUESTGROUP" id="z248">
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">SAP O47 300 LLC - No Payment terms</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z241"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z240 z245"></relationship>
+        <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
+        <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z249">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z240"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z250">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">7</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z245"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z251">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z240"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z252">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z245"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z253">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z243"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z254">
+        <attribute name="value" type="string">IzNrrJQHFuuSvArnr7c7w7vbY0Mxxa747qCH</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z245"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z255">
+        <attribute name="value" type="string">2014-01-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">7</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z240"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z256">
+        <attribute name="uuid" type="string">1FAD0106-310B-4D4E-9D7C-F1C44C929D68</attribute>
+        <attribute name="url" type="string">https://qetest-restapi.taulia.com/0.2/invoice/</attribute>
+        <attribute name="timeoutinterval" type="float">30</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">PUT</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="body" type="string">["{\\n    \\"companyCodeNumber\\": \\"JGHBUYER1\\",\\n    \\"vendorNumber\\": \\"9990018666\\",\\n    \\"invoiceDate\\": \\"2014-07-11\\",\\n    \\"purchaseOrderNumber\\":\\"PO-PT7732\\",\\n    \\"number\\": \\"INV-79999\\",\\n    \\"currency\\": \\"USD\\",\\n    \\"contactPerson\\": \\"Bugs bunny\\",\\n    \\"comment\\": \\"Supplier API PO \u2600 CC with TAX ID\\",\\n    \\"credit\\": \\"false\\",\\n    \\"lineItems\\": [\\n        {\\n            \\"poItemNumber\\": 1,\\n            \\"description\\": \\"Line Item 1\\",\\n            \\"unit\\": \\"EA\\",\\n            \\"quantity\\": 61,\\n            \\"unitPrice\\": 114.26,\\n            \\"discount\\": 0.37,\\n            \\"netAmount\\":6970.03\\n        }\\n    ]\\n}"]</attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string">9990018666 - PO has Tax ID</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z239"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z259 z238 z247 z237 z236"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z257">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">9</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z245"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z258">
+        <attribute name="value" type="string">fkdPgqgBHbMcIZnrb0jsGr9uf0nqHptSZZo2</attribute>
+        <attribute name="order" type="int64">5</attribute>
+        <attribute name="name" type="string">x-tau-rest-apikey</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z243"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z259">
+        <attribute name="value" type="string">2013-10-10T17:34:41Z</attribute>
+        <attribute name="order" type="int64">7</attribute>
+        <attribute name="name" type="string">Date</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z256"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z260">
+        <attribute name="value" type="string">application/JSON</attribute>
+        <attribute name="order" type="int64">8</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z245"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z261">
+        <attribute name="value" type="string">XXXX</attribute>
+        <attribute name="order" type="int64">6</attribute>
+        <attribute name="name" type="string">x-tau-rest-signature</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z243"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z262">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">10</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z191"></relationship>
+    </object>
+</database>
